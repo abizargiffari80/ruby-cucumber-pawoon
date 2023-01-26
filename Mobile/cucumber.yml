@@ -1,0 +1,5 @@
+<%
+    common_requires = "--require app --require step_definitions --require screens"
+%>
+
+default: <%= common_requires %> --format pretty --format html --out report/<%= ENV['REPORT_PATH']%>/features_report.html --format json --out=report/<%= ENV['REPORT_PATH']%>/cucumber.json

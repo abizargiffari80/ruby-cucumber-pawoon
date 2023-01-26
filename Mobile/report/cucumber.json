@@ -1,0 +1,618 @@
+[
+  {
+    "id": "android-cicilan",
+    "uri": "./features/Android_Cicilan.feature",
+    "keyword": "Feature",
+    "name": "Android Cicilan",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "id": "android-cicilan;jatuh-tempo-cicilan;;2",
+        "keyword": "Scenario",
+        "name": "Jatuh Tempo Cicilan",
+        "description": "",
+        "line": 46,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "user berada di homepage #jatuhtempocicilan",
+            "line": 37,
+            "match": {
+              "location": "step_definitions/Cicilan/Android_Cicilan_Jatuh_Tempo_Cicilan_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54746700
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "app/hook.rb:104"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 11500
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "And ",
+            "name": "pilih produk #jatuhtempocicilan",
+            "line": 38,
+            "match": {
+              "location": "step_definitions/Cicilan/Android_Cicilan_Jatuh_Tempo_Cicilan_steps.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2362938800
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "app/hook.rb:104"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 13700
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "And ",
+            "name": "user pilih pelanggan #jatuhtempocicilan",
+            "line": 39,
+            "match": {
+              "location": "step_definitions/Cicilan/Android_Cicilan_Jatuh_Tempo_Cicilan_steps.rb:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3177302600
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "app/hook.rb:104"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 10100
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "And ",
+            "name": "user bayar #jatuhtempocicilan",
+            "line": 40,
+            "match": {
+              "location": "step_definitions/Cicilan/Android_Cicilan_Jatuh_Tempo_Cicilan_steps.rb:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1624713500
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "app/hook.rb:104"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 9200
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "And ",
+            "name": "user pilih cicilan #jatuhtempocicilan",
+            "line": 41,
+            "match": {
+              "location": "step_definitions/Cicilan/Android_Cicilan_Jatuh_Tempo_Cicilan_steps.rb:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4607604300
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "app/hook.rb:104"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 25400
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "When ",
+            "name": "user klik \"mingguan\" cicilan #jatuhtempocicilan",
+            "line": 42,
+            "match": {
+              "location": "step_definitions/Cicilan/Android_Cicilan_Jatuh_Tempo_Cicilan_steps.rb:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6274442400
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "app/hook.rb:104"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 24300
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "name": "system generate otomatis \"weekly\" cicilan #jatuhtempocicilan",
+            "line": 43,
+            "match": {
+              "location": "step_definitions/Cicilan/Android_Cicilan_Jatuh_Tempo_Cicilan_steps.rb:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3727874200
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "app/hook.rb:104"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 14700
+                }
+              }
+            ]
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "appom-1.4.0/lib/appom/cucumber.rb:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6971940400
+            }
+          },
+          {
+            "match": {
+              "location": "app/hook.rb:2"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19009411800
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "app/hook.rb:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 233300
+            }
+          }
+        ]
+      },
+      {
+        "id": "android-cicilan;jatuh-tempo-cicilan;;3",
+        "keyword": "Scenario",
+        "name": "Jatuh Tempo Cicilan",
+        "description": "",
+        "line": 47,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "user berada di homepage #jatuhtempocicilan",
+            "line": 37,
+            "match": {
+              "location": "step_definitions/Cicilan/Android_Cicilan_Jatuh_Tempo_Cicilan_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 44600700
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "app/hook.rb:104"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 9400
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "And ",
+            "name": "pilih produk #jatuhtempocicilan",
+            "line": 38,
+            "match": {
+              "location": "step_definitions/Cicilan/Android_Cicilan_Jatuh_Tempo_Cicilan_steps.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5197271700
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "app/hook.rb:104"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 17900
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "And ",
+            "name": "user pilih pelanggan #jatuhtempocicilan",
+            "line": 39,
+            "match": {
+              "location": "step_definitions/Cicilan/Android_Cicilan_Jatuh_Tempo_Cicilan_steps.rb:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3003613300
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "app/hook.rb:104"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 11500
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "And ",
+            "name": "user bayar #jatuhtempocicilan",
+            "line": 40,
+            "match": {
+              "location": "step_definitions/Cicilan/Android_Cicilan_Jatuh_Tempo_Cicilan_steps.rb:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1265337000
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "app/hook.rb:104"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 11100
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "And ",
+            "name": "user pilih cicilan #jatuhtempocicilan",
+            "line": 41,
+            "match": {
+              "location": "step_definitions/Cicilan/Android_Cicilan_Jatuh_Tempo_Cicilan_steps.rb:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7192522200
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "app/hook.rb:104"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 26400
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "When ",
+            "name": "user klik \"bulanan\" cicilan #jatuhtempocicilan",
+            "line": 42,
+            "match": {
+              "location": "step_definitions/Cicilan/Android_Cicilan_Jatuh_Tempo_Cicilan_steps.rb:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6277275700
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "app/hook.rb:104"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 24200
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "name": "system generate otomatis \"monthly\" cicilan #jatuhtempocicilan",
+            "line": 43,
+            "match": {
+              "location": "step_definitions/Cicilan/Android_Cicilan_Jatuh_Tempo_Cicilan_steps.rb:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3744997700
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "app/hook.rb:104"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 15300
+                }
+              }
+            ]
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "appom-1.4.0/lib/appom/cucumber.rb:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6191215200
+            }
+          },
+          {
+            "match": {
+              "location": "app/hook.rb:2"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18842468600
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "app/hook.rb:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 194600
+            }
+          }
+        ]
+      },
+      {
+        "id": "android-cicilan;jatuh-tempo-cicilan;;4",
+        "keyword": "Scenario",
+        "name": "Jatuh Tempo Cicilan",
+        "description": "",
+        "line": 48,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "user berada di homepage #jatuhtempocicilan",
+            "line": 37,
+            "match": {
+              "location": "step_definitions/Cicilan/Android_Cicilan_Jatuh_Tempo_Cicilan_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54621900
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "app/hook.rb:104"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 13200
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "And ",
+            "name": "pilih produk #jatuhtempocicilan",
+            "line": 38,
+            "match": {
+              "location": "step_definitions/Cicilan/Android_Cicilan_Jatuh_Tempo_Cicilan_steps.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5608253600
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "app/hook.rb:104"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 20300
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "And ",
+            "name": "user pilih pelanggan #jatuhtempocicilan",
+            "line": 39,
+            "match": {
+              "location": "step_definitions/Cicilan/Android_Cicilan_Jatuh_Tempo_Cicilan_steps.rb:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3289546300
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "app/hook.rb:104"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 26700
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "And ",
+            "name": "user bayar #jatuhtempocicilan",
+            "line": 40,
+            "match": {
+              "location": "step_definitions/Cicilan/Android_Cicilan_Jatuh_Tempo_Cicilan_steps.rb:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1392779000
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "app/hook.rb:104"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 12800
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "And ",
+            "name": "user pilih cicilan #jatuhtempocicilan",
+            "line": 41,
+            "match": {
+              "location": "step_definitions/Cicilan/Android_Cicilan_Jatuh_Tempo_Cicilan_steps.rb:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7655685200
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "app/hook.rb:104"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 21300
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "When ",
+            "name": "user klik \"custom\" cicilan #jatuhtempocicilan",
+            "line": 42,
+            "match": {
+              "location": "step_definitions/Cicilan/Android_Cicilan_Jatuh_Tempo_Cicilan_steps.rb:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6368304800
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "app/hook.rb:104"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 11500
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "name": "system generate otomatis \"customs\" cicilan #jatuhtempocicilan",
+            "line": 43,
+            "match": {
+              "location": "step_definitions/Cicilan/Android_Cicilan_Jatuh_Tempo_Cicilan_steps.rb:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3877354200
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "app/hook.rb:104"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 56700
+                }
+              }
+            ]
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "appom-1.4.0/lib/appom/cucumber.rb:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6278262800
+            }
+          },
+          {
+            "match": {
+              "location": "app/hook.rb:2"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18926860100
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "app/hook.rb:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 307100
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

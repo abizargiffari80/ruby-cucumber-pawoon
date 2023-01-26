@@ -1,0 +1,1 @@
+default: --format pretty --format html --out report/<%= ENV['REPORT_PATH']%>/features_report.html --format json --out=report/<%= ENV['REPORT_PATH']%>/cucumber.json

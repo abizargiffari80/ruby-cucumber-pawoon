@@ -1,0 +1,25 @@
+# browser_caps:
+#   -
+#     "build": "Android Test Ruby 4"
+#     "name": "login case"
+#     "deviceName": "Google Pixel 4"
+#     "platformName": "Android"
+#     "platformVersion": "11"
+#     "app": "lt://APP100202491649644358888520"
+#     "appPackage": "com.rumahsiapkerja"
+#     "appActivity": "com.rumahsiapkerja.MainActivity"
+#     "isRealMobile": true
+#     "devicelog": true
+#     "visual": true
+#   -
+#     "build": "Android Test Ruby 3a"
+#     "name": "login case"
+#     "deviceName": "Google Pixel 3a"
+#     "platformName": "Android"
+#     "platformVersion": "11"
+#     "app": "lt://APP100202491649644358888520"
+#     "appPackage": "com.rumahsiapkerja"
+#     "appActivity": "com.rumahsiapkerja.MainActivity"
+#     "isRealMobile": true
+#     "devicelog": true
+#     "visual": true

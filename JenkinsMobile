@@ -1,0 +1,17 @@
+pipeline {
+    agent any
+
+  stages {
+    stage('Prepare') {
+        steps {
+            echo "Mulai jenkins mobile"
+            bat "dir"
+            dir("Mobile") {
+              bat "dir"
+              bat "cucumber .\\features\\login.feature"
+              bat "taskkill /F /IM node.exe"
+              }
+             }
+          }
+      }
+}
